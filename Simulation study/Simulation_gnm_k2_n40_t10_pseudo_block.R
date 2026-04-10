@@ -6,7 +6,7 @@ library(bvartools)
 #Please set the WD
 Simu = 50
 
-for(ss in 46:Simu){
+for(ss in 1:Simu){
   setwd("")
   load(paste0("Sim_Gnm_k2_n40_t10_sigmasqrt1_rv_r5_number_",ss,".Rdata"))  
   rm(list=ls()[!ls() %in% c("u_real","y","yf","U_ex","n","ss","Simu")])

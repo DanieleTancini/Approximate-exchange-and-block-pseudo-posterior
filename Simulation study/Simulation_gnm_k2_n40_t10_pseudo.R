@@ -4,7 +4,7 @@ library(LaplacesDemon)
 library(mvtnorm)
 library(bvartools)
 #Please set the WD
-Simu = 41
+Simu = 1
 
 for(ss in 50:Simu){
   #Dataset generated for exchange

@@ -1,6 +1,6 @@
 SS=50
 #Please set the WD
-for(ss in 41:SS){
+for(ss in 1:SS){
   #Dataset generated for exchange
   setwd("")
   load(paste0("Sim_lattice_k2_n9_t5_sigmasqrt1_rv_r5_",ss,".Rdata"))  

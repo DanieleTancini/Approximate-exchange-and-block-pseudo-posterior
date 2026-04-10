@@ -1,6 +1,6 @@
 SS=50 
 #Please set the WD
-for(ss in 41:SS){
+for(ss in 1:SS){
   #Packages
   library(ngspatial)
   library(igraph)

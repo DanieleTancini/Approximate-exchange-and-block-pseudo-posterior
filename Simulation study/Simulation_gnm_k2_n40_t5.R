@@ -6,7 +6,7 @@ library(bvartools)
 #Please set the WD
 Simu = 50
 
-for(ss in 46:Simu){
+for(ss in 1:Simu){
   set.seed(123 + (ss-1))
   a = erdos.renyi.game(40,20, type = "gnm")
   m = as_adjacency_matrix(a, type = "both")

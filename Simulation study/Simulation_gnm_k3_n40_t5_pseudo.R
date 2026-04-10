@@ -6,7 +6,7 @@ library(bvartools)
 #Please set the WD
 Simu = 50
 
-for(ss in 41:Simu){
+for(ss in 1:Simu){
   #Dataset generated for exchange
   setwd("")
   load(paste0("Sim_Gnm_k3_n40_t5_sigmasqrt1_rv_r5_number_prova_",ss,".Rdata"))  

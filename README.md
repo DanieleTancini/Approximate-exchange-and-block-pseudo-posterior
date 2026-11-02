@@ -1,8 +1,8 @@
 Repository contents
 
 This repository contains the R code used for the paper “Approximate exchange and block pseudo-posterior algorithms for spatio-temporal hidden Markov models” by D. Tancini (University of Perugia, Italy), R. Rastelli (University College Dublin, Ireland), and F. Bartolucci (University of Perugia, Italy).
-The repository is organized into 11 folders, corresponding to the 9 simulation scenarios (A–I), the real-data application, and the generation of plots.
 
+The repository is organized into 11 folders, corresponding to the 9 simulation scenarios (A–I), the real-data application, and the generation of plots.
 Each simulation scenario folder contains the following R scripts:
 	•	Latent process simulator (U_sim_phase_transition_speed.R): simulates the latent process.
 	•	Auxiliary process simulator (Omega_sampler_general_model_speed.R): generates auxiliary samples required by the algorithms.
